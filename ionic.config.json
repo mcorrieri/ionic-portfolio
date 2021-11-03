@@ -1,0 +1,7 @@
+{
+  "name": "mike-portfolio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
