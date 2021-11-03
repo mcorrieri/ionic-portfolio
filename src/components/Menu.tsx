@@ -25,7 +25,13 @@ import {
   trashSharp,
   warningOutline,
   warningSharp,
+  personOutline,
+  language,
+  fileTrayStacked,
+  musicalNoteSharp,
+  informationCircleOutline,
 } from "ionicons/icons";
+
 import "./Menu.css";
 
 interface AppPage {
@@ -39,32 +45,32 @@ const appPages: AppPage[] = [
   {
     title: "About Me",
     url: "/page/Inbox",
-    iosIcon: mailOutline,
-    mdIcon: mailSharp,
+    iosIcon: personOutline,
+    mdIcon: personOutline,
   },
   {
     title: "Frameworks I Use",
     url: "/page/Outbox",
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp,
+    iosIcon: language,
+    mdIcon: language,
   },
   {
     title: "Projects",
     url: "/page/Favorites",
-    iosIcon: heartOutline,
-    mdIcon: heartSharp,
+    iosIcon: fileTrayStacked,
+    mdIcon: fileTrayStacked,
   },
   {
     title: "Good Music",
     url: "/page/Archived",
-    iosIcon: archiveOutline,
-    mdIcon: archiveSharp,
+    iosIcon: musicalNoteSharp,
+    mdIcon: musicalNoteSharp,
   },
   {
     title: "Let's Connect!",
     url: "/page/Trash",
-    iosIcon: trashOutline,
-    mdIcon: trashSharp,
+    iosIcon: informationCircleOutline,
+    mdIcon: informationCircleOutline,
   },
 ];
 
